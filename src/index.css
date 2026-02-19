@@ -31,6 +31,9 @@ html {
 html {
   scroll-behavior: smooth;
 }
+section {
+  scroll-margin-top: 80px;
+}
 
 body {
   font-family: "Poppins", sans-serif;
