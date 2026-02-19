@@ -1,0 +1,99 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root Variables */
+:root {
+  --primary: #00bcd4;
+  --bg: #f5f7fa;
+  --card-bg: #ffffff;
+  --text-main: #111827;
+  --text-muted: #6b7280;
+}
+/* Dark Theme */
+[data-theme="dark"] {
+  --primary: #00e5ff;
+  --bg: #0f2027;
+  --card-bg: rgba(255, 255, 255, 0.05);
+  --text-main: #ffffff;
+  --text-muted: #cfd8dc;
+}
+/* Global Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg);
+  color: var(--text-main);
+  transition: background 0.3s ease, color 0.3s ease;
+  line-height: 1.6;
+}
+
+/* Remove default styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Container Utility */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Buttons */
+.btn {
+  padding: 12px 26px;
+  border-radius: 30px;
+  background: var(--primary);
+  color: #000;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 229, 255, 0.4);
+}
+
+/* Section spacing */
+section {
+  padding: 80px 0;
+}
+
+/* Scrollbar (Chrome) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #081418;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}

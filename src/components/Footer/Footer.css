@@ -1,0 +1,57 @@
+.footer {
+  padding: 60px 10%;
+  background: var(--bg);
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer h3 {
+  color: var(--primary);
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+/* Resume Button */
+.resume-btn {
+  display: inline-block;
+  padding: 12px 26px;
+  border-radius: 25px;
+  background: var(--primary);
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 25px;
+  transition: 0.3s ease;
+}
+
+.resume-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 229, 255, 0.3);
+}
+
+/* Socials */
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.footer-socials a {
+  color: var(--text-main);
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: var(--primary);
+}
+
+.footer-copy {
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
